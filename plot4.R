@@ -27,7 +27,7 @@ par(mfcol = c(2,2))
 #Create the plot for Global_active_power vs DateTime 
 with(powerconsumptiondata, plot(datetime, Global_active_power, type="n", 
                                 xlab = "", 
-                                ylab = "Global Active Power (kilowatts)"))
+                                ylab = "Global Active Power"))
 points(powerconsumptiondata$datetime, powerconsumptiondata$Global_active_power, 
        type = "l")
 
